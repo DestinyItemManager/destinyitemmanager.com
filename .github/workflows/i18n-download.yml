@@ -1,0 +1,58 @@
+# This workflow runs every Saturday @ 1900 UTC (NOON PST)
+name: i18n download bot
+on:
+  push:
+    branches-ignore:
+      - '**'
+# schedule:
+#    - cron: "0 19 * * 6"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout destinyitemmanager.com
+        uses: actions/checkout@v2
+
+      - name: Inject slug/short variables
+        uses: rlespinasse/github-slug-action@v2.x
+
+      - name: Download updated i18n files
+        uses: crowdin/github-action@1.0.4
+        with:
+          upload_sources: false
+          upload_translations: false
+          download_translations: true
+          create_pull_request: false
+          push_translations: false
+          source: locales/en.json
+          translation: locales/%android_code%.json
+          project_id: ${{ secrets.CROWDIN_PROJECT_ID }}
+          token: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: sort website json
+        run: |
+          allLocales=("en" "de" "es" "es-mx" "fr" "it" "ja" "ko" "pl" "pt-br" "ru" "zh-chs" "zh-cht")
+          for lang in ${allLocales[@]}; do
+            dimJSON="$(jq -S . locales/$lang.json)" && echo "${dimJSON}" > locales/$lang.json
+          done
+
+      - name: Check for new files
+        id: porcelain
+        run: echo ::set-output name=porcelain::"$(git status --porcelain)"
+
+      - name: Create Pull Request
+        if: steps.porcelain.outputs.porcelain
+        uses: peter-evans/create-pull-request@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: i18n - ${{ env.GITHUB_SHA_SHORT }}
+          committer: DIM i18n Bot <destinyitemmanager@gmail.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          title: '[i18n] Updates'
+          body: i18n updates
+          labels: i18n, automated pr
+          reviewers: delphiactual
+          branch: i18n
