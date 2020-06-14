@@ -39,6 +39,9 @@ jobs:
             dimJSON="$(jq -S . locales/$lang.json)" && echo "${dimJSON}" > locales/$lang.json
           done
 
+      - name: Generate localized webpages
+        run: yarn i18n
+
       - name: Check for new files
         id: porcelain
         run: echo ::set-output name=porcelain::"$(git status --porcelain)"
