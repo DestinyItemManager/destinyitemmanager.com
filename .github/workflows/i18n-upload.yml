@@ -6,7 +6,9 @@ on:
   push:
     paths:
       - "locales/en.json"
-    branches: [master]
+#    branches: [master]
+    branches-ignore:
+      - '**'
 
 jobs:
   build:

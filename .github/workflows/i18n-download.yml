@@ -1,8 +1,12 @@
 # This workflow runs every Saturday @ 1900 UTC (NOON PST)
 name: i18n download bot
 on:
-  schedule:
-    - cron: "0 19 * * 6"
+  push:
+    branches-ignore:
+      - '**'
+# schedule:
+#    - cron: "0 19 * * 6"
+
 jobs:
   build:
     runs-on: ubuntu-latest
