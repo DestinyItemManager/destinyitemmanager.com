@@ -7,7 +7,7 @@
   "author": "DIM",
   "license": "MIT",
   "scripts": {
-    "i18n": "static-i18n -l en -i en -i de -i es -i es-mx -i fr -i it -i ja -i ko -i pl -i pt-br -i ru -i zh-chs -i zh-cht template -o src",
+    "i18n": "static-i18n -l en -i en -i de -i es -i es-mx -i fr -i it -i ja -i ko -i pl -i pt-br -i ru -i zh-chs -i zh-cht template -o src && prettier --write src/**/*.html template/index.html",
     "pretty": "prettier --write src/**/*.html template/index.html"
   },
   "dependencies": {
