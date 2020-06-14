@@ -1,176 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60316581-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-  <!-- Global Site Tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60316581-6"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments) };
-    gtag('js', new Date());
+      gtag('config', 'UA-60316581-6');
+    </script>
 
-    gtag('config', 'UA-60316581-6');
-  </script>
+    <title data-t>Title</title>
+    <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+    <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+    <link href="/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-  <title data-t>Title</title>
-  <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
-  <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
-  <link href="/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-  <link rel="stylesheet" href="css/main.css">
-</head>
-
-<body>
-  <header>
-    <nav class="row">
-      <div class="col-2 logo"><img class="logo link release" src="images/DIM-menu.svg" data-attr-t alt-t="DIM" href="#"></div>
-      <ul class="col-10 menu">
-        <li><a target="_blank" href="https://opencollective.com/dim?utm_campaign=dim&utm_medium=github&utm_source=opencollective#about_us" data-t>About</a></li>
-        <li><a target="_blank" href="https://opencollective.com/dim?utm_campaign=dim&utm_medium=github&utm_source=opencollective#support" data-t>Backers</a></li>
-        <li><a target="_blank" href="https://www.designbyhumans.com/shop/DestinyItemManager/" data-t>Shop</a></li>
-        <li><a target="_blank" href="https://github.com/DestinyItemManager/DIM/issues" data-t>Support</a></li>
-        <li class="vertical-break">|</li>
-        <li><a href="https://app.destinyitemmanager.com" data-t>LaunchApp</a></li>
-      </ul>
-    </nav>
-    <button class="mobile-menu" data-t>MobileMenu<span></span><span></span><span> </span></button>
-    <nav class="sliding-panel-content">
-      <ul class="menu">
-        <li class="mobile-heading"><img class="logo link release" src="images/DIM-menu.svg" data-attr-t alt-t="DIM" href="#"></li>
-        <li><a target="_blank" href="https://opencollective.com/dim?utm_campaign=dim&utm_medium=github&utm_source=opencollective#about_us" data-t>About</a></li>
-        <li><a target="_blank" href="https://opencollective.com/dim?utm_campaign=dim&utm_medium=github&utm_source=opencollective#support" data-t>Backers</a></li>
-        <li><a target="_blank" href="https://www.designbyhumans.com/shop/DestinyItemManager/" data-t>Shop</a></li>
-        <li><a target="_blank" href="https://github.com/DestinyItemManager/DIM/issues" data-t>Support</a></li>
-        <li><a href="https://app.destinyitemmanager.com" data-t>LaunchApp</a></li>
-      </ul>
-    </nav>
-  </header>
-  <div class="hero">
-    <div class="row">
-      <h1 data-t>ControlYourWay</h1>
-      <p data-t>SwapItems</p>
-      <a class="launch" href="https://app.destinyitemmanager.com" data-t>LaunchApp</a><a class="beta" href="https://beta.destinyitemmanager.com"><em data-t>tryTheBeta</em></a><img class="browser" src="images/Browser.png" width="654px" data-attr-t alt-t="BrowserDIM">
+  <body>
+    <header>
+      <nav class="row">
+        <div class="col-2 logo">
+          <img
+            class="logo link release"
+            src="images/DIM-menu.svg"
+            data-attr-t
+            alt-t="DIM"
+            href="#"
+          />
+        </div>
+        <ul class="col-10 menu">
+          <li>
+            <a
+              target="_blank"
+              href="https://opencollective.com/dim?utm_campaign=dim&utm_medium=github&utm_source=opencollective#about_us"
+              data-t
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://opencollective.com/dim?utm_campaign=dim&utm_medium=github&utm_source=opencollective#support"
+              data-t
+              >Backers</a
+            >
+          </li>
+          <li>
+            <a target="_blank" href="https://www.designbyhumans.com/shop/DestinyItemManager/" data-t
+              >Shop</a
+            >
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/DestinyItemManager/DIM/issues" data-t
+              >Support</a
+            >
+          </li>
+          <li class="vertical-break">|</li>
+          <li><a href="https://app.destinyitemmanager.com" data-t>LaunchApp</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu" data-attr-t value-t="MobileMenu">
+        <span></span><span></span><span> </span>
+      </button>
+      <nav class="sliding-panel-content">
+        <ul class="menu">
+          <li class="mobile-heading">
+            <img
+              class="logo link release"
+              src="images/DIM-menu.svg"
+              data-attr-t
+              alt-t="DIM"
+              href="#"
+            />
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://opencollective.com/dim?utm_campaign=dim&utm_medium=github&utm_source=opencollective#about_us"
+              data-t
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://opencollective.com/dim?utm_campaign=dim&utm_medium=github&utm_source=opencollective#support"
+              data-t
+              >Backers</a
+            >
+          </li>
+          <li>
+            <a target="_blank" href="https://www.designbyhumans.com/shop/DestinyItemManager/" data-t
+              >Shop</a
+            >
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/DestinyItemManager/DIM/issues" data-t
+              >Support</a
+            >
+          </li>
+          <li><a href="https://app.destinyitemmanager.com" data-t>LaunchApp</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="hero">
+      <div class="row">
+        <h1 data-t>ControlYourWay</h1>
+        <p data-t>SwapItems</p>
+        <a class="launch" href="https://app.destinyitemmanager.com" data-t>LaunchApp</a
+        ><a class="beta" href="https://beta.destinyitemmanager.com"><em data-t>tryTheBeta</em></a
+        ><img
+          class="browser"
+          src="images/Browser.png"
+          width="654px"
+          data-attr-t
+          alt-t="BrowserDIM"
+        />
+      </div>
     </div>
-  </div>
-  <section class="whats-dim">
-    <div class="row">
-      <div class="col-5 info">
-        <div class="text-wrap">
-          <h2 data-t>WhatIsDIM</h2>
-          <h3 data-t>Weapons</h3>
-          <p data-t>ForgotSomething</p>
-          <h3 data-t>Gear</h3>
-          <p data-t>STOMP-EE5</p>
-          <h3 data-t>Loadouts</h3>
-          <p data-t>CreateLoadouts</p>
+    <section class="whats-dim">
+      <div class="row">
+        <div class="col-5 info">
+          <div class="text-wrap">
+            <h2 data-t>WhatIsDIM</h2>
+            <h3 data-t>Weapons</h3>
+            <p data-t>ForgotSomething</p>
+            <h3 data-t>Gear</h3>
+            <p data-t>STOMP-EE5</p>
+            <h3 data-t>Loadouts</h3>
+            <p data-t>CreateLoadouts</p>
+          </div>
+        </div>
+        <div class="col-5">
+          <img
+            class="image-shadow"
+            data-attr-t
+            alt-t="GearSquare"
+            src="images/GearSquare@2x.jpg"
+            width="379px"
+          />
         </div>
       </div>
-      <div class="col-5"><img class="image-shadow" data-attr-t alt-t="GearSquare" src="images/GearSquare@2x.jpg" width="379px"></div>
-    </div>
-  </section>
-  <section class="easy">
-    <div class="row">
-      <div class="col-5 image"><img class="image-shadow" data-attr-t alt-t="InspectWeapons" src="images/InspectWeaponShot@2x.jpg"
-          width="379px"></div>
-      <div class="col-5">
-        <div class="text-wrap">
-          <h2 data-t>SoEasy</h2>
-          <h3 data-t>PowerfulSearch</h3>
-          <p><span data-t>Inventory</span>
-            <a href="https://www.youtube.com/watch?v=TDMiysNXoOo&list=PLwhQ0xgGDsPuKwoA8nBxeb9Gin-UcUf6d" target="_blank" data-t>VideoSearch</a>
-          </p>
-          <h3 data-t>WeaponRatings</h3>
-          <p data-t>Review</p>
-          <h3 data-t>Tagging</h3>
-          <p data-t>Organize</p>
+    </section>
+    <section class="easy">
+      <div class="row">
+        <div class="col-5 image">
+          <img
+            class="image-shadow"
+            data-attr-t
+            alt-t="InspectWeapons"
+            src="images/InspectWeaponShot@2x.jpg"
+            width="379px"
+          />
+        </div>
+
+        <div class="col-5">
+          <div class="text-wrap">
+            <h2 data-t>SoEasy</h2>
+            <h3 data-t>PowerfulSearch</h3>
+            <p>
+              <span data-t>Inventory</span>
+              <a
+                href="https://www.youtube.com/watch?v=TDMiysNXoOo&list=PLwhQ0xgGDsPuKwoA8nBxeb9Gin-UcUf6d"
+                target="_blank"
+                data-t
+                >VideoSearch</a
+              >
+            </p>
+            <h3 data-t>WeaponRatings</h3>
+            <p data-t>Review</p>
+            <h3 data-t>Tagging</h3>
+            <p data-t>Organize</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="access">
-    <div class="row">
-      <div class="col-6">
-        <h2 data-t>AccessEverywhere</h2>
-        <div class="devices">
-          <span class="device-text" data-t>PC</span><span class="spacer text-dark"> </span><span class="device-text" data-t>Tablet</span><span
-            class="spacer text-dark"> </span><span class="device-text" data-t>Mobile</span>
+    </section>
+    <section class="access">
+      <div class="row">
+        <div class="col-6">
+          <h2 data-t>AccessEverywhere</h2>
+          <div class="devices">
+            <span class="device-text" data-t>PC</span><span class="spacer text-dark"> </span
+            ><span class="device-text" data-t>Tablet</span><span class="spacer text-dark"> </span
+            ><span class="device-text" data-t>Mobile</span>
+          </div>
+          <div class="systems">
+            <span class="xbox device-text" data-t>Xbox</span><span class="spacer text-dark"> </span
+            ><span class="playstation device-text" data-t>Playstation</span
+            ><span class="spacer text-dark"> </span
+            ><span class="blizzard device-text" data-t>Blizzard</span>
+          </div>
+          <a class="launch" href="https://app.destinyitemmanager.com" data-t>LaunchApp</a>
+          <a class="beta" href="https://beta.destinyitemmanager.com"
+            ><em data-t="tryTheBeta"></em
+          ></a>
         </div>
-        <div class="systems">
-          <span class="xbox device-text" data-t>Xbox</span><span class="spacer text-dark"> </span><span class="playstation device-text" data-t>Playstation</span><span
-            class="spacer text-dark"> </span><span class="blizzard device-text" data-t>Blizzard</span>
+        <div class="col-6">
+          <img
+            class="vertical-full-height"
+            data-attr-t
+            alt-t="GearSquare"
+            src="images/devices@2x.png"
+            width="538"
+          />
         </div>
-        <a class="launch" href="https://app.destinyitemmanager.com" data-t>LaunchApp</a>
-        <a class="beta" href="https://beta.destinyitemmanager.com"><em data-t="tryTheBeta"></em></a>
       </div>
-      <div class="col-6"><img class="vertical-full-height" data-attr-t alt-t="GearSquare" src="images/devices@2x.png" width="538"></div>
-    </div>
-  </section>
-  <footer>
-    <div class="row footer-nav">
-      <div class="col-2 footer-logo">
-        <svg width="71px" height="25px" viewbox="0 0 71 25" version="1.1" xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink">
-          <defs>
-            <lineargradient id="linearGradient-1" x1="97.073663%" y1="97.0720687%" x2="24.9815504%" y2="24.9777845%">
-              <stop stop-color="#FFFFFF" offset="0%"></stop>
-              <stop stop-color="#C9CACC" offset="100%"></stop>
-            </lineargradient>
-          </defs>
-          <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g id="Desktop-HD" transform="translate(-261.000000, -2023.000000)" fill-rule="nonzero">
-              <g id="Footer" transform="translate(0.000000, 1972.000000)">
-                <g id="DIM-white-footer" transform="translate(261.000000, 51.000000)">
-                  <polygon id="tiny-square" fill="url(#linearGradient-1)" points="14.9913398 12.4922564 12.4927832 9.99407603 9.99430181 12.4922564 12.4927832 14.9909635"></polygon>
-                  <polygon id="big-square" fill="#FFFFFF" points="22.6722999 10.1795919 22.4866334 9.99407603 19.9880768 7.49566991 17.4896707 4.99703802 14.7317681 2.23913543 12.4926327 -2.84217094e-14 9.99400077 2.49848138 12.0218814 4.526362 14.9911893 7.49566991 17.4896707 9.99385025 17.4894449 9.99407603 19.9880768 12.4925574 17.4894449 14.9909635 17.4896707 14.991114 15.4589302 17.021704 12.4926327 19.9879263 9.99400077 17.4894449 7.49566991 14.9909635 7.49566991 14.991114 5.18925205 12.6847714 4.99703802 12.4925574 7.80182758 9.68769259 9.99400077 7.49536887 7.49566991 4.99703802 4.99703802 7.49536887 2.49855664 9.99407603 0 12.4925574 2.4986319 14.9909635 4.99733906 17.4894449 4.99703802 17.4895954 7.49566991 19.9879263 9.99400077 22.4866334 12.4926327 24.9849643 14.9911893 22.4866334 17.4898212 19.9879263 19.9880768 17.4894449 22.4866334 14.9909635 24.9852653 12.4925574 22.887694 10.3950613"></polygon>
-                  <path id="dim-text" d="M55.4628547,3.94994568 L52.726025,3.94994568 L52.726025,20.8399447 L56.2293778,20.8400952 L56.2293778,9.08839723 L61.4714624,13.9028545 L66.6544678,9.09998727 L66.6544678,20.8400952 L70.157896,20.8399447 L70.157896,3.94994568 L67.44244,3.94994568 L61.4768811,9.45950427 L55.4628547,3.94994568 Z M47.1716114,3.95017146 L50.5493553,3.95017146 L50.5493553,20.8401705 L47.1716114,20.8401705 L47.1716114,3.95017146 Z M41.8544174,3.9500962 L28.0911702,3.9500962 L28.0911702,7.32814116 L41.603651,7.32814116 L41.6032747,10.7061109 L41.603651,10.7061109 L41.603651,13.4515956 L41.6032747,17.4622008 L31.4692151,17.4622008 L31.4692151,10.7061109 L28.0911702,10.7061109 L28.0911702,20.8402458 L31.4692151,20.8400952 L34.8474106,20.8400952 L34.8474106,20.8402458 L38.2252298,20.8400952 L41.603651,20.8400952 L41.603651,20.8402458 L44.9813197,20.8400952 L44.9813197,14.0840806 L44.9813197,14.0842311 L44.9813197,3.9500962 L42.145523,3.9500962 L41.8544174,3.9500962 Z"
-                    fill="#F2F2F2"></path>
+    </section>
+    <footer>
+      <div class="row footer-nav">
+        <div class="col-2 footer-logo">
+          <svg
+            width="71px"
+            height="25px"
+            viewbox="0 0 71 25"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <lineargradient
+                id="linearGradient-1"
+                x1="97.073663%"
+                y1="97.0720687%"
+                x2="24.9815504%"
+                y2="24.9777845%"
+              >
+                <stop stop-color="#FFFFFF" offset="0%"></stop>
+                <stop stop-color="#C9CACC" offset="100%"></stop>
+              </lineargradient>
+            </defs>
+            <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g
+                id="Desktop-HD"
+                transform="translate(-261.000000, -2023.000000)"
+                fill-rule="nonzero"
+              >
+                <g id="Footer" transform="translate(0.000000, 1972.000000)">
+                  <g id="DIM-white-footer" transform="translate(261.000000, 51.000000)">
+                    <polygon
+                      id="tiny-square"
+                      fill="url(#linearGradient-1)"
+                      points="14.9913398 12.4922564 12.4927832 9.99407603 9.99430181 12.4922564 12.4927832 14.9909635"
+                    ></polygon>
+                    <polygon
+                      id="big-square"
+                      fill="#FFFFFF"
+                      points="22.6722999 10.1795919 22.4866334 9.99407603 19.9880768 7.49566991 17.4896707 4.99703802 14.7317681 2.23913543 12.4926327 -2.84217094e-14 9.99400077 2.49848138 12.0218814 4.526362 14.9911893 7.49566991 17.4896707 9.99385025 17.4894449 9.99407603 19.9880768 12.4925574 17.4894449 14.9909635 17.4896707 14.991114 15.4589302 17.021704 12.4926327 19.9879263 9.99400077 17.4894449 7.49566991 14.9909635 7.49566991 14.991114 5.18925205 12.6847714 4.99703802 12.4925574 7.80182758 9.68769259 9.99400077 7.49536887 7.49566991 4.99703802 4.99703802 7.49536887 2.49855664 9.99407603 0 12.4925574 2.4986319 14.9909635 4.99733906 17.4894449 4.99703802 17.4895954 7.49566991 19.9879263 9.99400077 22.4866334 12.4926327 24.9849643 14.9911893 22.4866334 17.4898212 19.9879263 19.9880768 17.4894449 22.4866334 14.9909635 24.9852653 12.4925574 22.887694 10.3950613"
+                    ></polygon>
+                    <path
+                      id="dim-text"
+                      d="M55.4628547,3.94994568 L52.726025,3.94994568 L52.726025,20.8399447 L56.2293778,20.8400952 L56.2293778,9.08839723 L61.4714624,13.9028545 L66.6544678,9.09998727 L66.6544678,20.8400952 L70.157896,20.8399447 L70.157896,3.94994568 L67.44244,3.94994568 L61.4768811,9.45950427 L55.4628547,3.94994568 Z M47.1716114,3.95017146 L50.5493553,3.95017146 L50.5493553,20.8401705 L47.1716114,20.8401705 L47.1716114,3.95017146 Z M41.8544174,3.9500962 L28.0911702,3.9500962 L28.0911702,7.32814116 L41.603651,7.32814116 L41.6032747,10.7061109 L41.603651,10.7061109 L41.603651,13.4515956 L41.6032747,17.4622008 L31.4692151,17.4622008 L31.4692151,10.7061109 L28.0911702,10.7061109 L28.0911702,20.8402458 L31.4692151,20.8400952 L34.8474106,20.8400952 L34.8474106,20.8402458 L38.2252298,20.8400952 L41.603651,20.8400952 L41.603651,20.8402458 L44.9813197,20.8400952 L44.9813197,14.0840806 L44.9813197,14.0842311 L44.9813197,3.9500962 L42.145523,3.9500962 L41.8544174,3.9500962 Z"
+                      fill="#F2F2F2"
+                    ></path>
+                  </g>
                 </g>
               </g>
             </g>
-          </g>
-        </svg>
+          </svg>
+        </div>
+        <div class="col-6 nav">
+          <ul>
+            <li class="link-headings" data-t>UsefulLinks</li>
+            <li>
+              <a
+                class="link-text"
+                target="_blank"
+                href="https://github.com/DestinyItemManager/DIM/issues"
+                data-t
+                >Support</a
+              >
+            </li>
+            <li><a class="link-text" href="https://beta.destinyitemmanager.com" data-t>Beta</a></li>
+            <li>
+              <a class="link-text" href="https://app.destinyitemmanager.com" data-t>LaunchApp</a>
+            </li>
+            <li>
+              <a class="link-text" target="_blank" href="https://twitter.com/ThisIsDIM" data-t
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-4 social">
+          <a class="icon-button" target="_blank" href="https://twitter.com/ThisIsDIM">
+            <img src="images/icons_dTwitter.png" alt="Twitter" />
+          </a>
+          <a
+            class="icon-button"
+            target="_blank"
+            href="https://www.reddit.com/r/DestinyItemManager/"
+          >
+            <img src="images/icons_dReddit.png" alt="Reddit" />
+          </a>
+          <a class="icon-button" target="_blank" href="https://github.com/DestinyItemManager/DIM/">
+            <img src="images/icons_dGithub.png" alt="GitHub" />
+          </a>
+          <a class="icon-button" target="_blank" href="https://discordapp.com/invite/UK2GWC7">
+            <img src="images/icons_dDiscord.png" alt="Discord" />
+          </a>
+        </div>
       </div>
-      <div class="col-6 nav">
-        <ul>
-          <li class="link-headings" data-t>UsefulLinks</li>
-          <li><a class="link-text" target="_blank" href="https://github.com/DestinyItemManager/DIM/issues" data-t>Support</a></li>
-          <li><a class="link-text" href="https://beta.destinyitemmanager.com" data-t>Beta</a></li>
-          <li><a class="link-text" href="https://app.destinyitemmanager.com" data-t>LaunchApp</a></li>
-          <li><a class="link-text" target="_blank" href="https://twitter.com/ThisIsDIM" data-t>Contact</a></li>
-        </ul>
+      <div class="row">
+        <div class="col-6">
+          <ul class="footer-bottom-nav">
+            <li data-t>BungieTrademark</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <div class="copy" data-t>CopyRight</div>
+        </div>
       </div>
-      <div class="col-4 social">
-        <a class="icon-button" target="_blank" href="https://twitter.com/ThisIsDIM">
-          <img src="images/icons_dTwitter.png" alt="Twitter">
-        </a>
-        <a class="icon-button" target="_blank" href="https://www.reddit.com/r/DestinyItemManager/">
-          <img src="images/icons_dReddit.png" alt="Reddit">
-        </a>
-        <a class="icon-button" target="_blank" href="https://github.com/DestinyItemManager/DIM/">
-          <img src="images/icons_dGithub.png" alt="GitHub">
-        </a>
-        <a class="icon-button" target="_blank" href="https://discordapp.com/invite/UK2GWC7">
-          <img src="images/icons_dDiscord.png" alt="Discord">
-        </a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-6">
-        <ul class="footer-bottom-nav">
-          <li data-t>BungieTrademark</li>
-        </ul>
-      </div>
-      <div class="col-6">
-        <div class="copy" data-t>CopyRight</div>
-      </div>
-    </div>
-  </footer>
-  <div class="sliding-panel-fade-screen"></div>
-  <script src="scripts/main.js"></script>
-</body>
-
+    </footer>
+    <div class="sliding-panel-fade-screen"></div>
+    <script src="scripts/main.js"></script>
+  </body>
 </html>
