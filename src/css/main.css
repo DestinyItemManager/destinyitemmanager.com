@@ -354,7 +354,7 @@ header {
     .hero .row .browser {
       position: relative;
       bottom: -20px;
-      padding: 0 15px; }
+      margin: 0 15px; }
 
 section {
   padding: 5em 0; }
@@ -453,25 +453,6 @@ section.access {
       line-height: 18px;
       margin: 12px auto 20px;
       text-align: center; }
-
-section.d2 {
-  background: linear-gradient(
-      rgba(41, 41, 47, 0.75),
-      rgba(41, 41, 47, 0.75)),
-      url(../images/Destiny-2-Official-Reveal-Art.jpg) no-repeat 0px -142px;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 150px 0; }
-  section.d2 .d2-support svg {
-    display: block;
-    float: left; }
-  section.d2 .d2-support h4 {
-    display: inline-block;
-    color: #fff;
-    margin-left: 15px; }
-
 
 footer {
   background: #292929;

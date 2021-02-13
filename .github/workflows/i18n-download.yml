@@ -4,8 +4,9 @@ on:
   push:
     branches-ignore:
       - '**'
-# schedule:
-#    - cron: "0 19 * * 6"
+  workflow_dispatch:
+  #schedule:
+  #  - cron: "0 19 * * 6"
 
 jobs:
   build:
