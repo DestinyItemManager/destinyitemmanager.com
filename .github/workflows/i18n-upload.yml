@@ -3,6 +3,7 @@
 # and notifies the #i18n @i18n in Discord of the new translations.
 name: i18n upload bot
 on:
+  workflow_dispatch:
   push:
     paths:
       - "locales/en.json"
