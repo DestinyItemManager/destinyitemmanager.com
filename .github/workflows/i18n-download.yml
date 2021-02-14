@@ -41,7 +41,7 @@ jobs:
 #          done
 
       - name: Generate localized webpages
-        run: yarn i18n
+        run: yarn install && yarn i18n
 
       - name: Check for new files
         id: porcelain
