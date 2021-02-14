@@ -33,12 +33,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-#      - name: sort website json
-#        run: |
-#          allLocales=("en" "de" "es" "es-mx" "fr" "it" "ja" "ko" "pl" "pt-br" "ru" "zh-chs" "zh-cht")
-#          for lang in ${allLocales[@]}; do
-#            dimJSON="$(jq -S . locales/$lang.json)" && echo "${dimJSON}" > locales/$lang.json
-#          done
+      - name: sort website json
+        run: |
+          allLocales=("en" "de" "es" "es-mx" "fr" "it" "ja" "ko" "pl" "pt-br" "ru" "zh-chs" "zh-cht")
+          for lang in ${allLocales[@]}; do
+            jq -S . locales/"$lang".json > locales/"$lang"_sorted.json && mv locales/"$lang"_sorted.json locales/"$lang".json
+          done
 
       - name: Generate localized webpages
         run: yarn install && yarn i18n && yarn pretty
