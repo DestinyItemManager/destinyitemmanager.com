@@ -52,7 +52,7 @@ jobs:
         uses: peter-evans/create-pull-request@v3.4.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: i18n - ${{ env.GITHUB_SHA_SHORT }}
+          commit-message: i18n
           committer: DIM i18n Bot <destinyitemmanager@gmail.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           title: '[i18n] Updates'
