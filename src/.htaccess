@@ -29,15 +29,18 @@ RewriteEngine On
     RewriteCond %{HTTP:Accept-Language} ^pl [NC]
     RewriteRule ^$ /pl/ [L,R=301]
 
-    RewriteCond %{HTTP:Accept-Language} ^pt-BR [NC]
+    RewriteCond %{HTTP:Accept-Language} ^pt-br [NC]
     RewriteRule ^$ /pt-br/ [L,R=301]
 
     RewriteCond %{HTTP:Accept-Language} ^ru [NC]
     RewriteRule ^$ /ru/ [L,R=301]
 
-    RewriteCond %{HTTP:Accept-Language} ^zh-CN [NC]
+    RewriteCond %{HTTP:Accept-Language} ^zh-cn [NC]
     RewriteRule ^$ /zh-chs/ [L,R=301]
 
-    RewriteCond %{HTTP:Accept-Language} ^zh-TW [NC]
+    RewriteCond %{HTTP:Accept-Language} ^zh-tw [NC]
     RewriteRule ^$ /zh-cht/ [L,R=301]
+
+    # Don't cache one language for another
+    Header always merge Vary "Accept-Language"
 </IfModule>
