@@ -1,10 +1,8 @@
 {
-    "lang": "pt-BR",
   "About": "Sobre",
   "AccessEverywhere": "Acesse Seus Itens de Qualquer Lugar",
   "Backers": "Apoiadores",
   "Beta": "Beta",
-  "Steam": "Steam",
   "BrowserDIM": "Navegador rodando o Destiny Item Manager",
   "BungieTrademark": "Destiny é uma marca registrada da Bungie. Alguns conteúdos e imagens são propriedade da Bungie.",
   "Contact": "Contato",
@@ -28,6 +26,7 @@
   "STOMP-EE5": "Precisa daquele P1S4N-T3S para o desafio de pulos? Abra o DIM e pegue-os.",
   "Shop": "Loja",
   "SoEasy": "É Realmente Fácil Assim.",
+  "Steam": "Steam",
   "Support": "Suporte",
   "SwapItems": "Troque itens, verifique atributos, e construa o set para Se Tornar uma Lenda com o DIM",
   "Tablet": "Tablet",
@@ -39,5 +38,6 @@
   "Weapons": "Armas",
   "WhatIsDIM": "O que é o DIM?",
   "Xbox": "Xbox",
+  "lang": "pt-BR",
   "tryTheBeta": "experimente o beta"
 }

@@ -1,10 +1,8 @@
 {
-    "lang": "it",
   "About": "Chi siamo",
   "AccessEverywhere": "Accedi ai tuoi oggetti ovunque",
   "Backers": "Backers",
   "Beta": "Beta",
-  "Steam": "Steam",
   "BrowserDIM": "Destiny Item Manager su browser",
   "BungieTrademark": "Destiny è un marchio registrato di Bungie. Alcuni contentuti ed immagini sono di proprietà di Bungie.",
   "Contact": "Contatti",
@@ -28,6 +26,7 @@
   "STOMP-EE5": "Ti servono quei Calp-35t1 per quel puzzle coi salti? Avvia DIM e prendili.",
   "Shop": "Negozio",
   "SoEasy": "È così facile, davvero.",
+  "Steam": "Steam",
   "Support": "Supportaci",
   "SwapItems": "Scambia gli oggetti, controlla le statistiche e crea il loadout per Diventare Leggenda con DIM",
   "Tablet": "Tablet",
@@ -39,5 +38,6 @@
   "Weapons": "Armi",
   "WhatIsDIM": "Cos'è DIM?",
   "Xbox": "Xbox",
+  "lang": "it",
   "tryTheBeta": "prova la beta"
 }

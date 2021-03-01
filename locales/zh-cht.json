@@ -1,10 +1,8 @@
 {
-    "lang": "zh-Hant",
   "About": "About",
   "AccessEverywhere": "Access Your Items Everywhere",
   "Backers": "Backers",
   "Beta": "Beta",
-  "Steam": "Steam",
   "BrowserDIM": "Browser running Destiny Item Manager",
   "BungieTrademark": "Destiny is a registered trademark of Bungie. Some content and images are the property of Bungie.",
   "Contact": "Contact",
@@ -28,6 +26,7 @@
   "STOMP-EE5": "Need those STOMP-EE5 for the jumping puzzle? Fire up DIM and grab them.",
   "Shop": "Shop",
   "SoEasy": "It Really Is That Easy.",
+  "Steam": "Steam",
   "Support": "Support",
   "SwapItems": "Swap items, check stats, and build the loadout to Become Legend with DIM",
   "Tablet": "Tablet",
@@ -39,5 +38,6 @@
   "Weapons": "Weapons",
   "WhatIsDIM": "What's DIM?",
   "Xbox": "Xbox",
+  "lang": "zh-Hant",
   "tryTheBeta": "try the beta"
 }

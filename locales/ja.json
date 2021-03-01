@@ -1,10 +1,8 @@
 {
-    "lang": "ja",
   "About": "概要",
   "AccessEverywhere": "どこからでもアイテムにアクセス",
   "Backers": "支援者",
   "Beta": "ベータ",
-  "Steam": "Steam",
   "BrowserDIM": "Destiny Item Manager を実行しているブラウザ",
   "BungieTrademark": "Destiny は Bungie の登録商標です。一部のコンテンツや画像は Bungie の所有物です。",
   "Contact": "問い合わせ",
@@ -28,6 +26,7 @@
   "STOMP-EE5": "ジャンプパズルに STOMP-EE5 が必要ですか? DIMを起動して掴みましょう。",
   "Shop": "ショップ",
   "SoEasy": "それは本当に簡単です。",
+  "Steam": "Steam",
   "Support": "サポート",
   "SwapItems": "アイテムを交換し、ステータスを確認し、ロードアウトを構築して DIM で伝説になる。",
   "Tablet": "タブレット",
@@ -39,5 +38,6 @@
   "Weapons": "武器",
   "WhatIsDIM": "DIM とは?",
   "Xbox": "Xbox",
+  "lang": "ja",
   "tryTheBeta": "ベータ版を試す"
 }

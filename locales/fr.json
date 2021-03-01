@@ -1,10 +1,8 @@
 {
-    "lang": "fr",
   "About": "À propos",
   "AccessEverywhere": "Accédez À Vos Objets Partout",
   "Backers": "Contributeurs",
   "Beta": "Beta",
-  "Steam": "Steam",
   "BrowserDIM": "Navigateur exécutant Destiny Item Manager",
   "BungieTrademark": "Destiny est une marque déposée de Bungie. Certains contenus et images sont la propriété de Bungie.",
   "Contact": "Contact",
@@ -28,6 +26,7 @@
   "STOMP-EE5": "Vous avez besoins de vos P1ÉTIN-EU5E5 pour ce puzzle de saut ? Lancez DIM et récupérez les.",
   "Shop": "Boutique",
   "SoEasy": "C'est Vraiment Aussi Simple.",
+  "Steam": "Steam",
   "Support": "Support",
   "SwapItems": "Changer d'objet, comparer les stats, et construire l'arsenal pour Devenir une Légende avec DIM",
   "Tablet": "Tablette",
@@ -39,5 +38,6 @@
   "Weapons": "Armes",
   "WhatIsDIM": "Qu'est-ce que DIM ?",
   "Xbox": "Xbox",
+  "lang": "fr",
   "tryTheBeta": "essayer la beta"
 }
