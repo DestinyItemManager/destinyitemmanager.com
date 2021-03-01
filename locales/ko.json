@@ -1,10 +1,8 @@
 {
-    "lang": "ko",
   "About": "정보",
   "AccessEverywhere": "어디에서나 아이템에 접근하세요.",
   "Backers": "후원자들",
   "Beta": "베타",
-  "Steam": "Steam",
   "BrowserDIM": "Destiny Item Manager을 실행 중인 브라우저",
   "BungieTrademark": "Destiny는 Bungie의 등록 상표입니다. 일부 콘텐츠와 이미지는 번지의 자산입니다.",
   "Contact": "연락처",
@@ -28,6 +26,7 @@
   "STOMP-EE5": "점프 퍼즐에 K0KIR-EE5가 필요하신가요? DIM을 실행해서 가져오세요.",
   "Shop": "상점",
   "SoEasy": "정말로 쉽습니다.",
+  "Steam": "Steam",
   "Support": "지원",
   "SwapItems": "DIM과 함께 아이템을 변경하고, 능력치를 확인하고, 로드아웃을 생성하여 전설이 되어보세요.",
   "Tablet": "태블릿",
@@ -39,5 +38,6 @@
   "Weapons": "무기",
   "WhatIsDIM": "DIM이란?",
   "Xbox": "Xbox",
+  "lang": "ko",
   "tryTheBeta": "베타 버전 시도"
 }

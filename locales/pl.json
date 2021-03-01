@@ -1,10 +1,8 @@
 {
-    "lang": "pl",
   "About": "O Aplikacji",
   "AccessEverywhere": "Dostęp do swoich przedmiotów z dowolnego miejsca",
   "Backers": "Wspierający",
   "Beta": "Beta",
-  "Steam": "Steam",
   "BrowserDIM": "Przeglądarka z uruchomionym Destiny Item Manager",
   "BungieTrademark": "Destiny jest zarejestrowanym znakiem towarowym Bungie. Niektóre treści i obrazy są własnością Bungie.",
   "Contact": "Kontakt",
@@ -28,6 +26,7 @@
   "STOMP-EE5": "Potrzebujesz tych Tup0t-EE5 na skakanie? Odpal DIM i weź je.",
   "Shop": "Sklep",
   "SoEasy": "To naprawdę jest takie łatwe.",
+  "Steam": "Steam",
   "Support": "Wsparcie",
   "SwapItems": "Zamień przedmioty, sprawdź statystyki i zbuduj uzbrojenie, aby stać się Legendą z DIM",
   "Tablet": "Tablet",
@@ -39,5 +38,6 @@
   "Weapons": "Broń",
   "WhatIsDIM": "Co to jest DIM?",
   "Xbox": "Xbox",
+  "lang": "pl",
   "tryTheBeta": "wypróbuj wersję beta"
 }

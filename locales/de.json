@@ -1,10 +1,8 @@
 {
-  "lang": "de",
   "About": "Über",
   "AccessEverywhere": "Überall Zugriff auf deine Gegenstände",
   "Backers": "Unterstützer",
   "Beta": "Beta",
-  "Steam": "Steam",
   "BrowserDIM": "Browser mit Destiny Item Manager",
   "BungieTrademark": "Destiny ist eine eingetragene Marke von Bungie. Einiger Inhalt und Bilder sind in Besitz von Bungie.",
   "Contact": "Kontakt",
@@ -28,6 +26,7 @@
   "STOMP-EE5": "Brauchst du die STOMP-EE5 für das Sprung-Puzzle? Nimm DIM und greife auf sie zu.",
   "Shop": "Shop",
   "SoEasy": "Es ist wirklich so einfach.",
+  "Steam": "Steam",
   "Support": "Support",
   "SwapItems": "Tausche Gegenstände, überprüfe Statistiken und baue das Loadout, um eine Legende mit DIM zu werden",
   "Tablet": "Tablet",
@@ -39,5 +38,6 @@
   "Weapons": "Waffen",
   "WhatIsDIM": "Was ist DIM?",
   "Xbox": "Xbox",
+  "lang": "de",
   "tryTheBeta": "probiere die Beta"
 }
