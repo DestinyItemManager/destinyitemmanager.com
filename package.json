@@ -7,12 +7,21 @@
   "author": "DIM",
   "license": "MIT",
   "scripts": {
-    "i18n": "cpy locales/en.json locales --rename='en-us.json' && static-i18n -l en-US -i en-US -i en -i de -i es -i es-MX -i fr -i it -i ja -i ko -i pl -i pt-BR -i ru -i zh-CHS -i zh-CHT template -o src && prettier --write src/**/*.html template/index.html",
+    "i18n": "cpy template/locales/en.json template/locales --rename='en-us.json' && static-i18n -l en-US -i en-US -i en -i de -i es -i es-MX -i fr -i it -i ja -i ko -i pl -i pt-BR -i ru -i zh-CHS -i zh-CHT template -o src && prettier --write src/**/*.html template/index.html",
     "pretty": "prettier --write src/**/*.html template/index.html"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   },
   "dependencies": {
     "cpy-cli": "^3.1.1",
-    "prettier": "^2.0.5",
-    "static-i18n": "^0.2.6"
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "static-i18n": "^0.2.10"
+  },
+  "devDependencies": {
+    "husky": "^5.1.3"
   }
 }
