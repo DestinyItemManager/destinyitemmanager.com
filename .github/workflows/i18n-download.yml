@@ -26,8 +26,8 @@ jobs:
           download_translations: true
           create_pull_request: false
           push_translations: false
-          source: locales/en.json
-          translation: locales/%android_code%.json
+          source: template/locales/en.json
+          translation: template/locales/%android_code%.json
           project_id: ${{ secrets.CROWDIN_PROJECT_ID }}
           token: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
         env:
@@ -37,7 +37,7 @@ jobs:
         run: |
           allLocales=("en" "de" "es" "es-mx" "fr" "it" "ja" "ko" "pl" "pt-br" "ru" "zh-chs" "zh-cht")
           for lang in ${allLocales[@]}; do
-            jq -S . locales/"$lang".json > locales/"$lang"_sorted.json && mv locales/"$lang"_sorted.json locales/"$lang".json
+            jq -S . template/locales/"$lang".json > template/locales/"$lang"_sorted.json && mv template/locales/"$lang"_sorted.json template/locales/"$lang".json
           done
 
       - name: Generate localized webpages

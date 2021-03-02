@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "locales/en.json"
+      - "template/locales/en.json"
     branches: [master]
 
 jobs:
@@ -17,15 +17,15 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Sort website json
-        run: dimJSON="$(jq -S . locales/en.json)" && echo "${dimJSON}" > locales/en.json
+        run: dimJSON="$(jq -S . template/locales/en.json)" && echo "${dimJSON}" > template/locales/en.json
 
       - name: Upload updated website json to crowdin
         uses: crowdin/github-action@1.0.4
         with:
           upload_sources: true
           upload_translations: false
-          source: locales/en.json
-          translation: locales/%android_code%.json
+          source: template/locales/en.json
+          translation: template/locales/%android_code%.json
           project_id: ${{ secrets.CROWDIN_PROJECT_ID }}
           token: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
         env:
