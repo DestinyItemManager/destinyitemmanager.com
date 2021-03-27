@@ -7,12 +7,13 @@
   "author": "DIM",
   "license": "MIT",
   "scripts": {
-    "i18n:en-US": "cpy template/locales/en.json template/locales --rename='en-US.json'",
-    "i18n:es-MX": "cpy template/locales/es-mx.json template/locales --rename='es-MX.json'",
-    "i18n:pt-BR": "cpy template/locales/pt-br.json template/locales --rename='pt-BR.json'",
-    "i18n:zh-CHS": "cpy template/locales/zh-chs.json template/locales --rename='zh-CHS.json'",
-    "i18n:zh-CHT": "cpy template/locales/zh-cht.json template/locales --rename='zh-CHT.json'",
-    "i18n:static": "static-i18n -l en-US -i en-US -i en -i de -i es -i es-MX -i fr -i it -i ja -i ko -i pl -i pt-BR -i ru -i zh-CHS -i zh-CHT template -o src && prettier --write src/**/*.html template/index.html",
+    "i18n:en-US": "fileutils cp template/locales/en.json template/locales/en-US.json",
+    "i18n:es-MX": "fileutils mv template/locales/es-mx.json template/locales/es-MX.json",
+    "i18n:pt-BR": "fileutils mv template/locales/pt-br.json template/locales/pt-BR.json",
+    "i18n:zh-CHS": "fileutils mv template/locales/zh-chs.json template/locales/zh-CHS.json",
+    "i18n:zh-CHT": "fileutils mv template/locales/zh-cht.json template/locales/zh-CHT.json",
+    "i18n:static": "static-i18n -l en-US -i en-US -i en -i de -i es -i es-MX -i fr -i it -i ja -i ko -i pl -i pt-BR -i ru -i zh-CHS -i zh-CHT template -o src",
+    "i18n:pretty": "prettier --write src/**/*.html template/index.html",
     "i18n": "run-s i18n:*",
     "pretty": "prettier --write src/**/*.html template/index.html"
   },
@@ -22,7 +23,7 @@
     }
   },
   "dependencies": {
-    "cpy-cli": "^3.1.1",
+    "fileutils-cli": "^1.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
