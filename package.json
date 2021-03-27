@@ -14,6 +14,7 @@
     "i18n:zh-CHT": "fileutils mv template/locales/zh-cht.json template/locales/zh-CHT.json",
     "i18n:static": "static-i18n -l en-US -i en-US -i en -i de -i es -i es-MX -i fr -i it -i ja -i ko -i pl -i pt-BR -i ru -i zh-CHS -i zh-CHT template -o src",
     "i18n:pretty": "prettier --write src/**/*.html template/index.html",
+    "i18n:cleanup": "fileutils mv template/locales/en-US.json template/locales/en.json --force",
     "i18n": "run-s i18n:*",
     "pretty": "prettier --write src/**/*.html template/index.html"
   },
