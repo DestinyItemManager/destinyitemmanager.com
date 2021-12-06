@@ -7,6 +7,7 @@
   "author": "DIM",
   "license": "MIT",
   "scripts": {
+    "i18n:json": "jsonsort template/locales",
     "i18n:en-US": "fileutils cp template/locales/en.json template/locales/en-US.json --force",
     "i18n:es-MX": "fileutils mv template/locales/es-mx.json template/locales/es-MX.json --force",
     "i18n:pt-BR": "fileutils mv template/locales/pt-br.json template/locales/pt-BR.json --force",
@@ -20,11 +21,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "jsonsort template/locales && pretty-quick --staged"
     }
   },
   "dependencies": {
     "fileutils-cli": "^1.0.1",
+    "json-sort-cli": "^2.0.7",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
