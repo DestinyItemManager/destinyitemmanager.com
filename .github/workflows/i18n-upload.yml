@@ -37,4 +37,4 @@ jobs:
           DISCORD_EMBEDS: ${{ toJSON(secrets.DISCORD_EMBEDS) }}
         uses: Ilshidur/action-discord@master
         with:
-          args: "<@&622449489008918548> - New translations for the website have been added to crowdin."
+          args: "<@&622449489008918548> - New translations for the website have been added."
