@@ -34,11 +34,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: sort website json
-        run: |
-          allLocales=("en" "de" "es" "es-mx" "fr" "it" "ja" "ko" "pl" "pt-br" "ru" "zh-chs" "zh-cht")
-          for lang in ${allLocales[@]}; do
-            jq -S . template/locales/"$lang".json > template/locales/"$lang"_sorted.json && mv template/locales/"$lang"_sorted.json template/locales/"$lang".json
-          done
+        run: jsonsort template/locales
 
       - name: Generate localized webpages
         run: yarn install && yarn i18n
