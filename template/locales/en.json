@@ -1,9 +1,9 @@
 {
   "About": "About",
-  "Armor": "Armor",
   "AccessEverywhere": "Access DIM everywhere.",
   "AccessEverywhereAlt": "DIM responsive layouts",
   "AccessEverywhereDetail": "DIM is a progressive web app (PWA) that works on any device with a supported browser. Use DIM on your PC, tablet, or phone! DIM can also be installed, for an app-like experience, from browsers that support PWAs like Chrome, Edge, and Safari.",
+  "Armor": "Armor",
   "Backers": "Backers",
   "Beta": "Beta",
   "BrowserDIM": "Browser running Destiny Item Manager",
@@ -35,11 +35,11 @@
   "Title": "Destiny Item Manager",
   "UsefulLinks": "Useful Links",
   "VideoSearch": "Check out our video on search.",
+  "Weapons": "Weapons",
+  "WhatIsDIM": "What is Destiny Item Manager (DIM)?",
   "Wishlist": "Built in recommendations.",
   "WishlistAlt": "DIM Wishlists",
   "WishlistDetail": "DIM partners with community experts to curate a wishlist of item rolls that will get marked with a thumbs up if they land in your inventory. Click on any item's name to see a listing of all it’s recommended rolls. You can even create your own wishlist with your favorite item rolls to use in DIM!",
-  "Weapons": "Weapons",
-  "WhatIsDIM": "What is Destiny Item Manager (DIM)?",
   "lang": "en",
   "tryTheBeta": "try the beta"
 }
