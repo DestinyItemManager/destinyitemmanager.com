@@ -12,6 +12,7 @@
   "ControlYourWay": "Controla Tus Objetos A Tu Manera.",
   "DIM": "DIM",
   "DIMWiki": "Wiki",
+  "GoogleStore": "Instalar para Android",
   "ItemsAnywhere": "Tus objetos en donde sea, en cualquier momento.",
   "ItemsAnywhereAlt": "Página de inventario DIM",
   "ItemsAnywhereDetail": "¿Olvidaste agarrar tu cañón de mano favorito del depósito? Simplemente haz clic y arrástralo a tu personaje activo mientras vuelas a tu actividad. ¡Equípalo directamente si estás en la torre o esperando en órbita!",
@@ -37,9 +38,11 @@
   "VideoSearch": "Ve nuestro vídeo sobre búsquedas.",
   "Weapons": "Armas",
   "WhatIsDIM": "¿Qué es Destiny Item Manager (DIM)?",
+  "WindowsStore": "Instalar para Windows",
   "Wishlist": "Recomendaciones integradas.",
   "WishlistAlt": "Listas de deseos DIM",
-  "WishlistDetail": "DIM se asocia con expertos de la comunidad para preparar una lista de deseos de los rolls de objetos que se marcarán con un pulgar arriba si caen en tu inventario. Haz clic en el nombre de cualquier elemento para ver un listado de todos los rolls recomendados. ¡Incluso puedes crear tu propia lista de deseos con tus rolls favoritos para usar en DIM!",
+  "WishlistDetail": "DIM se asocia con una comunidad de expertos en preparar una lista de deseos de tus tiradas de objetos que serán marcados con un pulgar arriba si acaban en tu inventario. Haz click en cualquier nombre de objeto para ver un listado de todas su tiradas recomendadas. ¡Puedes incluso crear tu propia lista de deseos con tus tiradas favoritas de objetos para usar en DIM!",
+  "iosStore": "Instalar para iOS",
   "lang": "es-MX",
   "tryTheBeta": "prueba la beta"
 }
