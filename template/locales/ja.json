@@ -12,6 +12,7 @@
   "ControlYourWay": "アイテムをあなたのやり方でコントロール",
   "DIM": "DIM",
   "DIMWiki": "Wiki",
+  "GoogleStore": "Install for Android",
   "ItemsAnywhere": "Your items anywhere, anytime.",
   "ItemsAnywhereAlt": "DIM 保管庫ページ",
   "ItemsAnywhereDetail": "Forgot to grab your favorite hand cannon from the vault? Just click and drag it to your active character while flying into your activity. Equip it directly if you're in the tower or hanging out in orbit!",
@@ -37,9 +38,11 @@
   "VideoSearch": "検索で私達の動画をチェック",
   "Weapons": "武器",
   "WhatIsDIM": "Destiny Item Manager (DIM) とは何か?",
+  "WindowsStore": "Install for Windows",
   "Wishlist": "Built in recommendations.",
   "WishlistAlt": "DIM お気に入りリスト",
-  "WishlistDetail": "DIM partners with community experts to curate a wishlist of item rolls that will get marked with a thumbs up if they land in your inventory. Click on any item's name to see a listing of all it’s recommended rolls. You can even create your own wishlist with your favorite item rolls to use in DIM!",
+  "WishlistDetail": "DIM partners with community experts to curate a wishlist of item rolls that will get marked with a thumbs up if they land in your inventory. Click on any item's name to see a listing of all its recommended rolls. You can even create your own wishlist with your favorite item rolls to use in DIM!",
+  "iosStore": "Install for iOS",
   "lang": "ja",
   "tryTheBeta": "ベータ版を試す"
 }

@@ -12,6 +12,7 @@
   "ControlYourWay": "Kontroluj swoje przedmioty na swój sposób.",
   "DIM": "DIM",
   "DIMWiki": "Wiki",
+  "GoogleStore": "Zainstaluj na Androidzie",
   "ItemsAnywhere": "Twoje przedmioty gdziekolwiek, kiedykolwiek.",
   "ItemsAnywhereAlt": "Strona ekwipunku DIM",
   "ItemsAnywhereDetail": "Zapomniałeś wziąć swojego ulubionego rewolweru ze schowka? Po prostu kliknij i przeciągnij go do Twojej aktywnej postaci podczas podróży do aktywności. Załóż go bezpośrednio będąc na Wieży lub w orbicie!",
@@ -37,9 +38,11 @@
   "VideoSearch": "Sprawdź nasze wideo o wyszukiwaniu.",
   "Weapons": "Broń",
   "WhatIsDIM": "Czym jest Destiny Item Manager (DIM)?",
+  "WindowsStore": "Zainstaluj na Windows",
   "Wishlist": "Wbudowane rekomendacje.",
   "WishlistAlt": "Listy życzeń DIM",
   "WishlistDetail": "DIM współpracuje z ekspertami społeczności aby kurować listę życzeń przedmiotów, które zostaną oznaczone kciukiem w górę jeśli wylądują w Twoim ekwipunku. Kliknij na nazwę przedmiotu, aby zobaczyć listę wszystkich zalecanych rolli. Możesz nawet utworzyć własną listę życzeń z Twoimi ulubionymi rollami przedmiotów do użycia w DIM!",
+  "iosStore": "Zainstaluj na iOS",
   "lang": "pl",
   "tryTheBeta": "wypróbuj wersję beta"
 }

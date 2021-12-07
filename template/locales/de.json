@@ -12,6 +12,7 @@
   "ControlYourWay": "Kontrolliere deine Gegenstände wie du es willst.",
   "DIM": "DIM",
   "DIMWiki": "Wiki",
+  "GoogleStore": "Installation für Android",
   "ItemsAnywhere": "Deine Gegenstände überall, jederzeit.",
   "ItemsAnywhereAlt": "DIM Inventarseite",
   "ItemsAnywhereDetail": "Vergessen deine Lieblings-Handfeuerwaffe aus dem Tresor zu nehmen? Klicke einfach und ziehe sie auf deinen aktiven Charakter, während du in deine Aktivität fliegst. Rüste es direkt aus, wenn du im Turm oder im Orbit bist!",
@@ -37,9 +38,11 @@
   "VideoSearch": "Schaue dir unser Video für die Suche an.",
   "Weapons": "Waffen",
   "WhatIsDIM": "Was ist Destiny Item Manager (DIM)?",
+  "WindowsStore": "Installation für Windows",
   "Wishlist": "Eingebaute Empfehlungen.",
   "WishlistAlt": "DIM Wunschlisten",
-  "WishlistDetail": "DIM arbeitet mit Community-Experten zusammen, um eine Wunschliste von Gegenstands-Rolls zu erstellen, die mit einem Daumen nach oben markiert werden, wenn sie in deinem Inventar landen. Klicke auf den Namen eines Elements, um eine Liste aller empfohlenen Rollen zu sehen. Du kannst sogar deine eigene Wunschliste mit deinen Lieblings-Gegenstands-Rolls erstellen, die du in DIM verwenden kannst!",
+  "WishlistDetail": "DIM arbeitet mit Community-Experten zusammen, um eine Wunschliste von Gegenstands-Rolls zu erstellen, die mit einem Daumen nach oben markiert werden, wenn sie in deinem Inventar landen. Klicke auf den Namen eines Elements, um eine Liste aller empfohlenen Rolls zu sehen. Du kannst sogar deine eigene Wunschliste mit deinen Lieblings-Gegenstands-Rolls erstellen, die du in DIM verwenden kannst!",
+  "iosStore": "Installation für iOS",
   "lang": "de",
   "tryTheBeta": "probiere die Beta"
 }
