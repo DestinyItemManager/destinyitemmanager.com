@@ -43,6 +43,33 @@ section a, section a:visited{
 section a:hover{
   color: #fff;
 }
+.flex-actions{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.flex-actions a.store-link{
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  margin: 5px;
+  font-size: 18px;
+  background:rgba(255,255,255, .2);
+  font-weight: 800;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  height: 58px;
+  line-height: 55px;
+  transition: .3s ;
+  transform: translateY(0px);
+}
+.flex-actions a.store-link:hover{
+  transform: translateY(-2px);
+}
 
 /*
  * Typography
@@ -349,7 +376,7 @@ header {
       position: relative;
       bottom: -20px;
       padding: 0 15px; }
-
+    
 
 
 footer {
@@ -396,12 +423,18 @@ footer {
       font-size: 11px;
       font-weight: 600;
       line-height: 30px;
-      text-decoration: none; }
+      text-decoration: none; 
+    transition: .3s}
+      footer .footer-nav a:hover {
+        color: #F37422;}
     footer .footer-nav .social {
       text-align: center;
       margin: 30px 0 10px; }
       footer .footer-nav .social .icon-button {
-        margin-right: 5px; }
+        margin-right: 5px; 
+      transition: .3s;}
+      footer .footer-nav .social .icon-button:hover {
+        filter: sepia(100%) saturate(1000%) hue-rotate(-50deg)}
   footer .footer-bottom-nav li {
     display: inline-block;
     color: #b9b9b9;
@@ -455,9 +488,14 @@ footer {
     display: none; }
   header .row .col-10 {
     display: block; } 
-  .hero .row a.launch, .hero .row a.beta{
+  .hero .row a.launch, .hero .row a.beta, .flex-actions{
     width: 90%;
   }
+  .flex-actions a.store-link{
+    width: calc(20% - 10px);
+  min-width: 350px;
+  }
+  
   .col-1 {
     width: 4.33%;
   }
