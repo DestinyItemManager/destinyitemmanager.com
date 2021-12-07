@@ -19,7 +19,7 @@ jobs:
         uses: rlespinasse/github-slug-action@v2.x
 
       - name: Download updated i18n files
-        uses: crowdin/github-action@1.0.4
+        uses: crowdin/github-action@1.4.1
         with:
           upload_sources: false
           upload_translations: false
