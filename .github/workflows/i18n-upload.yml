@@ -20,7 +20,7 @@ jobs:
         run: yarn install && yarn i18n:json
 
       - name: Upload updated website json to crowdin
-        uses: crowdin/github-action@1.0.4
+        uses: crowdin/github-action@1.4.1
         with:
           upload_sources: true
           upload_translations: false
