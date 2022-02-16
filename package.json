@@ -27,7 +27,7 @@
   "dependencies": {
     "fileutils-cli": "^1.0.1",
     "json-sort-cli": "^2.0.7",
-    "npm-run-all": "^4.1.5",
+    "npm-run-all2": "^5.0.2",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
     "static-i18n": "^0.2.10"
