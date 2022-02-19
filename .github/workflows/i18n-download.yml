@@ -40,16 +40,11 @@ jobs:
         id: porcelain
         run: echo ::set-output name=porcelain::"$(git status --porcelain)"
 
-      - name: Create Pull Request
+      - name: Commit files
         if: steps.porcelain.outputs.porcelain
-        uses: peter-evans/create-pull-request@v3.4.1
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: i18n
-          committer: DIM i18n Bot <destinyitemmanager@gmail.com>
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-          title: '[i18n] Updates'
-          body: i18n updates
-          labels: i18n, automated pr
-          reviewers: delphiactual
-          branch: i18n
+          commit_message: i18n
+          commit_user_name: DIM i18n Bot
+          commit_user_email: destinyitemmanager@gmail.com
+          commit_author: DIM i18n Bot <destinyitemmanager@gmail.com>
