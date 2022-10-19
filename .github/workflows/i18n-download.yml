@@ -36,12 +36,16 @@ jobs:
       - name: Generate localized webpages
         run: yarn install && yarn i18n
 
-      - name: Check for new files
-        id: porcelain
-        run: echo ::set-output name=porcelain::"$(git status --porcelain)"
+      - uses: dorny/paths-filter@v2 ## porcelain check
+        id: filter
+        with:
+          base: HEAD
+          filters: |
+            changed:
+              - '**'
 
       - name: Commit files
-        if: steps.porcelain.outputs.porcelain
+        if: steps.filter.outputs.changed
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: i18n
