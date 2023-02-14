@@ -434,7 +434,7 @@ footer {
         margin-right: 5px; 
       transition: .3s;}
       footer .footer-nav .social .icon-button:hover {
-        filter: sepia(100%) saturate(1000%) hue-rotate(-50deg)}
+        filter: sepia(100%) saturate(300%) hue-rotate(-30deg)}
   footer .footer-bottom-nav li {
     display: inline-block;
     color: #b9b9b9;
