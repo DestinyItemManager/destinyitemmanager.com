@@ -16,7 +16,7 @@
     "i18n:static": "static-i18n -l en-US -i en-US -i en -i de -i es -i es-MX -i fr -i it -i ja -i ko -i pl -i pt-BR -i ru -i zh-CHS -i zh-CHT template -o src",
     "i18n:pretty": "prettier --write src/**/*.html template/index.html src/index.html",
     "i18n:cleanup": "fse move --overwrite --quiet template/locales/en-US.json template/locales/en.json",
-    "i18n": "run-s i18n:*",
+    "i18n": "pnpm run \"/i18n:.*/\"",
     "pretty": "prettier --write src/**/*.html template/index.html"
   },
   "husky": {
@@ -27,12 +27,12 @@
   "dependencies": {
     "@atao60/fse-cli": "^0.1.7",
     "json-sort-cli": "^2.0.7",
-    "npm-run-all2": "^5.0.2",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
     "static-i18n": "^0.2.10"
   },
   "devDependencies": {
     "husky": "^5.1.3"
-  }
+  },
+  "packageManager": "pnpm@9.3.0+sha512.ee7b93e0c2bd11409c6424f92b866f31d3ea1bef5fbe47d3c7500cdc3c9668833d2e55681ad66df5b640c61fa9dc25d546efa54d76d7f8bf54b13614ac293631"
 }
